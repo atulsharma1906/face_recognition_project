@@ -28,22 +28,20 @@ A Python-based Face Recognition Attendance System using OpenCV, MySQL, and Tkint
 
 ## 📁 Project Structure
 face_recognition_attendance/
-│
-├── attendance.py # Attendance marking module
-├── data_set_generator.py # Capture face data
-├── train.py # Train the LBPH face recognizer
-├── face_recognition.py # Real-time face recognition & attendance
-├── student.py # Add/edit student details
-├── main.py # Main GUI application
-├── python_connect_to_mysql.py # MySQL connectivity
-├── images/ # GUI and icon assets
-├── dataset/ # Captured face data
-├── login.py/ # login
-├── attendance/ # CSV files for attendance logs
-└── README.md # Project overview and usage
+├── README.md # Project documentation
+├── attendance.py # Module for marking attendance
+├── attendence sheet.csv # CSV file for logged attendance records
+├── face_recognition.py # Face recognition functionality
+├── haarcascade_frontalface_default.xml # Haar cascade classifier for face detection
+├── login.py # Login system module
+├── main.py # Main GUI launcher
+├── python_connect_to_mysql.py # MySQL database connection handler
+├── reconition.py # Alternate recognition logic (possibly outdated)
+├── register.py # Register new users/faces
+├── student.py # Manage student details
+├── train.py # Train face recognition model
 
 
----
 
 
 
