@@ -35,10 +35,10 @@ face_recognition_attendance/
 ├── face_recognition.py # Real-time face recognition & attendance
 ├── student.py # Add/edit student details
 ├── main.py # Main GUI application
-├── database.py # MySQL connectivity
+├── python_connect_to_mysql.py # MySQL connectivity
 ├── images/ # GUI and icon assets
 ├── dataset/ # Captured face data
-├── trainer/ # Trained model file (.yml)
+├── login.py/ # login
 ├── attendance/ # CSV files for attendance logs
 └── README.md # Project overview and usage
 
